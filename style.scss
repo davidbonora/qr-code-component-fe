@@ -1,0 +1,66 @@
+// variables
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(212, 45%, 89%);
+$Grayish-blue: hsl(220, 15%, 55%);
+$Dark-blue: hsl(218, 44%, 22%);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Light-gray;
+    font-family: 'Outfit';
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    height: 500px;
+    margin-top: 15%;
+    border-radius: 1em; 
+    background-color: $White;
+    & img {
+        border-radius: 1em;
+        width: 93%;
+        margin: 1em;
+    }
+    & h3 {
+        font-size: 25px;
+        margin: .8rem;
+        color: $Dark-blue;
+    }
+    & p {
+        font-size: 15px;
+        color: $Light-gray;
+    }
+}
+
+.attribution {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    padding: .5em;
+    padding-left: .5em;
+    background-color: dodgerblue;
+    text-align: center;
+    & a {
+        text-decoration: none;
+        color: $Dark-blue;
+    }
+    & span {
+        font-size: 15px;
+    }
+}

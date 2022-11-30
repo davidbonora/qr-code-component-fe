@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit";
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 320px;
+  height: 500px;
+  margin-top: 15%;
+  border-radius: 1em;
+  background-color: hsl(0deg, 0%, 100%);
+}
+.card img {
+  border-radius: 1em;
+  width: 93%;
+  margin: 1em;
+}
+.card h3 {
+  font-size: 25px;
+  margin: 0.8rem;
+  color: hsl(218deg, 44%, 22%);
+}
+.card p {
+  font-size: 15px;
+  color: hsl(212deg, 45%, 89%);
+}
+
+.attribution {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  padding: 0.5em;
+  padding-left: 0.5em;
+  background-color: dodgerblue;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(218deg, 44%, 22%);
+}
+.attribution span {
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */
